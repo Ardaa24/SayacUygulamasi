@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 50px;
+    padding: 50px;
+    width: 100%;
+    --main-color: rgb(6, 7, 7);
+    --main-bg-color: rgba(202, 38, 38, 0.219);
+    --pattern-color: rgba(36, 233, 118, 0.329);
+    color: var(--main-color);
+    padding: 1rem 3rem;
+    font-weight: 700;
+    font-size: 100px;
+    align-items: center;
+    filter: hue-rotate(0deg);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    background: radial-gradient(circle,
+            var(--main-bg-color) 0%,
+            rgba(20, 20, 20, 0) 95%),
+        linear-gradient(var(--pattern-color) 1px, transparent 1px),
+        linear-gradient(to right, var(--pattern-color) 1px, transparent 1px);
+    background-size:
+        cover,
+        50px 50px,
+        500px 50px;
+    background-position:
+        center center,
+        center center,
+        center center;
+    border-image: radial-gradient(circle,
+            var(--main-color) 0%,
+            rgba(224, 13, 13, 0.993) 100%) 1;
+    border-width: 1px 0 1px 0;
+    transition: background-size 0.2s ease-in-out;
+    
+}
+
+button {
+    margin: 25px;
+    --main-color: rgb(53, 56, 55);
+    --main-bg-color: rgba(18, 230, 106, 0.664);
+    --pattern-color: rgba(84, 194, 130, 0.274);
+    filter: hue-rotate(0deg);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    background: radial-gradient(circle,
+            var(--main-bg-color) 0%,
+            rgba(20, 20, 20, 0) 95%),
+        linear-gradient(var(--pattern-color) 1px, transparent 1px),
+        linear-gradient(to right, var(--pattern-color) 1px, transparent 1px);
+    background-size:
+        cover,
+        15px 15px,
+        15px 15px;
+    background-position:
+        center center,
+        center center,
+        center center;
+    border-image: radial-gradient(circle,
+            var(--main-color) 0%,
+            rgba(0, 0, 0, 0.534) 100%) 1;
+    border-width: 1px 0 1px 0;
+    color: var(--main-color);
+    padding: 1rem 3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: background-size 0.2s ease-in-out;
+}
+
+button:hover {
+    background-size:
+        cover,
+        10px 10px,
+        10px 10px;
+
+}
+
+button:active {
+    filter: hue-rotate(250deg);
+
+}
+
+
+footer{
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px; 
+    margin: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+    
+}
+
+a:hover{
+    color: green;
+    
+
+}
