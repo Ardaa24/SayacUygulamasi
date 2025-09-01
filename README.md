@@ -1,2 +1,2 @@
-# Saya-Uygulamas-
+# SayacUygulamasi
 Online Sayaç Uygulaması.
