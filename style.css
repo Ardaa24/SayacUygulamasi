@@ -93,25 +93,32 @@ button:active {
 
 
 footer{
-    background: #222;
-    color: #fff;
+    background: rgb(53, 56, 55);
+    color: #000000;
     text-align: center;
-    padding: 15px; 
-    margin: 25px;
+    padding: 8px; 
+    margin: 0px;
+    margin-bottom: 10px;
     position: fixed;
     bottom: 0;
     left: 0;
+    right: 0;
     width: 100%;
+    max-width: 100%;
 }
+
 a{
     text-decoration: none;
-    color: #fff;
+    text-justify: inter-word;
+    font-style: italic;
+    font-weight: 700;
+    color: #ffffff;
     transition: color 0.2s ease-in-out;
-    
+    transition: underline 0.2s ease-in-out;
+
 }
 
 a:hover{
-    color: green;
-    
-
+    color: rgba(48, 187, 48, 0.486);
+    text-decoration: underline;
 }
