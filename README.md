@@ -1,5 +1,5 @@
 # SayacUygulamasi
-Online Sayaç Uygulaması.
+Boostrap ve CSS teknolojilerini pekiştirmek için yapmış olduğum Online Sayaç Uygulaması.
 << Loading Panel >>
 <img width="948" height="916" alt="Screenshot_1" src="https://github.com/user-attachments/assets/84862917-781e-4073-ad9b-b564caba4d74" />
 
